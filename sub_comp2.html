@@ -91,37 +91,38 @@
 
     <!-- Hero Section -->
     <div class="container text-lg-left">
-      <h1 style="color: rgba(20, 110, 163, 0.984);"><strong>Administrer</strong></h1>
+      <h1 style="color: rgba(20, 110, 163, 0.984);"><strong>Connecter</strong></h1>
 
       <div class="container my-4">
 
-        <!-- AC11.01 -->
+        <!-- AC12.01 -->
         <div class="btn-group w-100 mb-3">
           <button class="btn btn-secondary dropdown-toggle text-start text-wrap"
           data-bs-toggle="dropdown">
-            AC11.01 — Maîtriser les lois fondamentales 
-            de l’électricité afin d’intervenir sur des équipements de réseaux et télécommunications
+            AC12.01 — Mesurer, analyser et commenter les signaux
           </button>
           <div class="dropdown-menu p-4 w-100">
             <p><B>- Ce que j'ai fait</B></p>
             <p>
-              Dans le cadre de ce travail, j’ai effectué un montage électronique avec la maquette ADS.
+              Dans le cadre de ce travail, j’ai étudié la transmission de l’information dans un câble afin de mieux comprendre son fonctionnement et les phénomènes physiques associés.
             </p>
             
             <p>
-              Pour cela, nous avons mis en place une expérimentation en utilisant la maquette. Cet outil nous a permis de mesurer la tension
-              d'une résistance en mode Ampèremètre sur Wavegen.
+              Pour cela, nous avons mis en place une expérimentation en utilisant un oscilloscope. Cet outil nous a permis de visualiser les signaux électriques en entrée et en sortie du câble, et ainsi d’analyser leur évolution au cours de la transmission.
             </p>
             
             <p>
               Nous avons notamment observé les effets de retard (décalage temporel du signal) ainsi que les atténuations (diminution de l’amplitude). Ces mesures nous ont permis de comparer concrètement le signal initial avec celui reçu, et de mieux comprendre les pertes subies lors du transport de l’information.
             </p>
             
-            <img src="assets/img/Maquette ADS.png" alt="maquette ADS">
+            <a href="assets/img/comparaison_V_in - out.png" 
+            target="_blank" class="btn btn-sm btn-outline-primary ">
+              <i class="bi bi-eye">Voir la visualisation à l’oscilloscope</i> 
+            </a>
             
             <p><B>- Difficultés</B></p>
             <p>
-              J’ai rencontré des difficultés lors du montage de la maquette ADS, notamment pour réaliser correctement les branchements et obtenir un signal exploitable. La prise en main du logiciel Wavegen a également été complexe, en particulier pour la configuration des signaux et leur synchronisation avec les mesures.
+              J’ai rencontré des difficultés lors du montage de la maquette ADSL, notamment pour réaliser correctement les branchements et obtenir un signal exploitable. La prise en main du logiciel Wavegen a également été complexe, en particulier pour la configuration des signaux et leur synchronisation avec les mesures.
             </p>
             
             <p><b>- Ce que j’ai appris</b></p>
@@ -140,12 +141,12 @@
           </div>
         </div>
       
-        <!-- AC11.02 -->
+        <!-- AC12.02 -->
         <div class="btn-group w-100 mb-3">
           <button class="btn btn-secondary dropdown-toggle text-start text-wrap" 
           data-bs-toggle="dropdown">
-            AC11.02 — Comprendre l'architecture et les fondements des systèmes numériques, 
-            les principes du codage de l'information, des communications et de l'Internet
+            AC12.02 — Caractériser des systèmes 
+            de transmissions élémentaires et découvrir la modélisation mathématique de leur fonctionnement
           </button>
           <div class="dropdown-menu p-4 w-100">
             <p><b>- Ce que j'ai fait</b></p>
@@ -197,11 +198,11 @@
           </div>
         </div>
       
-        <!-- AC11.03 -->
+        <!-- AC12.03 -->
         <div class="btn-group w-100 mb-3">
           <button class="btn btn-secondary dropdown-toggle text-start" 
           data-bs-toggle="dropdown">
-            AC11.03 — Configurer les fonctions de base du réseau local
+            AC12.03 — Déployer des supports de transmission
           </button>
           <div class="dropdown-menu p-4 w-100">
             <p><b>- Ce que j'ai fait</b></p>
@@ -210,7 +211,7 @@
             </p>
             
             <p>
-              J’ai notamment travaillé sur la configuration d>es VLAN (Virtual Local Area Network) afin de segmenter le réseau en plusieurs sous-réseaux logiques. J’ai également réalisé du routage inter-VLAN pour permettre la communication entre ces différents réseaux.
+              J’ai notamment travaillé sur la configuration des VLAN (Virtual Local Area Network) afin de segmenter le réseau en plusieurs sous-réseaux logiques. J’ai également réalisé du routage inter-VLAN pour permettre la communication entre ces différents réseaux.
             </p>
             
             <p>
@@ -249,13 +250,11 @@
           </div>
         </div>
       
-        <!-- AC11.04 -->
+        <!-- AC12.04 -->
         <div class="btn-group w-100 mb-3">
           <button class="btn btn-secondary dropdown-toggle text-start text-wrap" 
           data-bs-toggle="dropdown">
-            AC11.04 — Maîtriser les rôles et les principes fondamentaux des systèmes d’exploitation 
-            afin d’interagir avec ceux-ci pour la configuration 
-            et l'administration des réseaux et services fournis
+            AC12.04 — Connecter les systèmes de ToIP
           </button>
           <div class="dropdown-menu p-4 w-100"><p><b>- Ce que j'ai fait</b></p>
             <p>
@@ -268,7 +267,7 @@
             
             <p>
               J’ai également utilisé des commandes réseau (comme <code>dhclient</code>) pour configurer dynamiquement les adresses IP et vérifier la connectivité entre les différentes machines.
-            </p>>
+            </p>
             
             <img src="assets/img/Creation_passerelle Linux_1.png" class="img-fluid mb-2">
             <img src="assets/img/Creation_passerelle Linux_2.png" class="img-fluid mb-2">
@@ -298,11 +297,12 @@
           </div>
         </div>
       
-        <!-- AC11.05 -->
+        <!-- AC12.05 -->
         <div class="btn-group w-100 mb-3">
           <button class="btn btn-secondary dropdown-toggle text-start text-wrap" 
           data-bs-toggle="dropdown">
-            AC11.05 — Identifier les dysfonctionnements du réseau local et savoir les signaler
+            AC12.05 — Communiquer avec un tiers 
+            (client, collaborateur...) et adapter son discours et sa langue à son interlocuteur
           </button>
           <div class="dropdown-menu p-4 w-100">
             <p><b>- Ce que j'ai fait</b></p>
@@ -337,56 +337,8 @@
             </p>
             
             <p><b>- Ce que je ferai autrement</b></p>
-            <p class="text-muted fst-italic">
+            <p class="text-mutedd fst-italic">
               Si je devais refaire ce projet, je commencerais par réaliser un schéma précis du réseau et vérifierais chaque branchement étape par étape. Je mettrais également en place une méthode de test progressive pour identifier plus rapidement l’origine des problèmes.
-            </p>
-          </div>
-        </div>
-      
-        <!-- AC11.06 -->
-        <div class="btn-group w-100 mb-3">
-          <button class="btn btn-secondary dropdown-toggle text-start text-wrap" 
-          data-bs-toggle="dropdown">
-            AC11.06 — Installer un poste client, expliquer la procédure mise en place
-          </button>
-          <div class="dropdown-menu p-4 w-100">
-            <p><b>- Ce que j'ai fait</b></p>
-            <p>
-              Dans ce travail, j’ai mis en place un environnement client-serveur à l’aide de machines virtuelles sous Windows Server et Windows Client. L’objectif était de comprendre le fonctionnement des services réseau dans un système d’information.
-            </p>
-            
-            <p>
-              J’ai configuré un serveur DHCP afin d’attribuer automatiquement des adresses IP aux machines du réseau, ainsi qu’un serveur DNS pour permettre la résolution de noms. J’ai également créé et géré des comptes utilisateurs afin de simuler un environnement professionnel.
-            </p>
-            
-            <p>
-              En parallèle, j’ai réalisé la configuration des postes clients pour qu’ils puissent rejoindre le réseau et communiquer avec le serveur, notamment en testant l’attribution des adresses IP et l’accès aux ressources.
-            </p>
-            
-            <img src="assets/img/adressage_serveur.png" class="img-fluid mb-2">
-            <img src="assets/img/adressage_Client.png" class="img-fluid mb-2">
-            
-            <p class="mt-3"><b>- Difficultés</b></p>
-            <p>
-              J’ai rencontré des difficultés dans la gestion des droits utilisateurs, notamment pour attribuer les bonnes permissions et comprendre leur impact sur l’accès aux ressources.
-            </p>
-            
-            <p>
-              L’interface de Windows Server était également complexe à prendre en main au début, ce qui rendait certaines configurations plus longues et difficiles à comprendre.
-            </p>
-            
-            <p><b>- Ce que j’ai appris</b></p>
-            <p>
-              Cette activité m’a permis de mieux comprendre le fonctionnement des services réseau essentiels comme le DHCP et le DNS dans un environnement client-serveur.
-            </p>
-            
-            <p>
-              J’ai également appris à administrer un système Windows Server, à gérer des utilisateurs et à configurer des postes clients dans un réseau structuré.
-            </p>
-            
-            <p><b>- Ce que je ferai autrement</b></p>
-            <p class="text-muted fst-italic">
-              Si je devais refaire ce travail, je prendrais le temps d’explorer davantage les paramètres de gestion des utilisateurs et des droits afin de mieux comprendre leur fonctionnement et éviter certaines erreurs de configuration.
             </p>
           </div>
         </div>
@@ -394,6 +346,7 @@
       </div>
     </div> 
   </main>
+
 <a href="portfolio.html" id="scroll-left" class="scroll-left position-fixed top-50 start-0 translate-middle-y me-3 justify-content-center active text-white "><i class="bi bi-arrow-left-circle fs-3"></i></a>
 
   <footer id="footer" class="footer">
@@ -448,7 +401,10 @@
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  >net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
          integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
 </body>
